@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Starter.unity
+    path: Assets/Scenes/Starter.unity
     guid: 5f4f621d49c72ee49abc12b5cf499283
   - enabled: 1
-    path: Assets/Book World.unity
+    path: Assets/Scenes/mainRoom.unity
+    guid: f58754256cab7a24685bd8b2783f0ed1
+  - enabled: 1
+    path: Assets/Scenes/Book World.unity
     guid: 5b3d3b8897586f84490fe200df467b97
   - enabled: 1
-    path: Assets/card world.unity
+    path: Assets/Scenes/card world.unity
     guid: 3f33f3f7c0db56c4a9561b6d71552674
   m_configObjects: {}

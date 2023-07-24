@@ -1,0 +1,877 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32684 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Productivity/Projects/Current projects/Gamer Book
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51474
+Successfully changed project path to: D:/Productivity/Projects/Current projects/Gamer Book
+D:/Productivity/Projects/Current projects/Gamer Book
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15744] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 3075853692 [EditorId] 3075853692 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RLAPSFU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15744] Host "[IP] 192.168.1.108 [Port] 0 [Flags] 2 [Guid] 3075853692 [EditorId] 3075853692 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RLAPSFU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 12.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Productivity/Projects/Current projects/Gamer Book/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3179
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007364 seconds.
+- Loaded All Assemblies, in  0.235 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.181 seconds
+Domain Reload Profiling: 414ms
+	BeginReloadAssembly (66ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (64ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (85ms)
+			TypeCache.Refresh (84ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (181ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (142ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.567 seconds
+Refreshing native plugins compatible for Editor in 6.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.434 seconds
+Domain Reload Profiling: 999ms
+	BeginReloadAssembly (105ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (434ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (334ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4082 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (146.8 KB). Loaded Objects now: 4528.
+Memory consumption went from 146.2 MB to 146.1 MB.
+Total: 5.547600 ms (FindLiveObjects: 0.221200 ms CreateObjectMapping: 0.101000 ms MarkObjects: 5.086500 ms  DeleteObjects: 0.138300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90215.834285 seconds.
+  path: Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOUT.controller
+  artifactKey: Guid(4174b37548937094a8a9c0d3da2713f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOUT.controller using Guid(4174b37548937094a8a9c0d3da2713f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a39be671c83fd2b1b08b4df001672b8') in 0.009843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 6.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 1470ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (422ms)
+		LoadAssemblies (266ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (193ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 9.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (118.4 KB). Loaded Objects now: 4532.
+Memory consumption went from 142.1 MB to 142.0 MB.
+Total: 5.525600 ms (FindLiveObjects: 0.286200 ms CreateObjectMapping: 0.090400 ms MarkObjects: 5.038300 ms  DeleteObjects: 0.109500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.645311 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGrid.asset
+  artifactKey: Guid(b0126e1e0c6c2a04895d564bd230dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGrid.asset using Guid(b0126e1e0c6c2a04895d564bd230dfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011be13c7c9164909c665d8bd0b572ae') in 0.013761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridTransitionAnimation.png
+  artifactKey: Guid(15624411095bc9d4daf87d72aca1f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridTransitionAnimation.png using Guid(15624411095bc9d4daf87d72aca1f416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a7d81381fa932e1f779e7c586b1d46') in 0.210504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.505085 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridIN.controller
+  artifactKey: Guid(2c1df7568c16b2f48b026e97a4d19eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridIN.controller using Guid(2c1df7568c16b2f48b026e97a4d19eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c943f3978f641c78f7a5a7573088ba9e') in 0.001943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 15.978837 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridIn.anim
+  artifactKey: Guid(7b92db7e1d50e82409e01ba6e1a43eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridIn.anim using Guid(7b92db7e1d50e82409e01ba6e1a43eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91232b34e385d8760bd560c05986c413') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.365862 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOut.anim
+  artifactKey: Guid(54fa10cdc9ad07745860d9310ab13d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOut.anim using Guid(54fa10cdc9ad07745860d9310ab13d8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996b850ba598313170190de8b335bbfa') in 0.000985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.581263 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOUT.controller
+  artifactKey: Guid(d38fa53902805514589b90251b82c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOUT.controller using Guid(d38fa53902805514589b90251b82c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c494451d6c3e4315bc5ebfecc821e6e') in 0.001251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.579 seconds
+Refreshing native plugins compatible for Editor in 7.02 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.806 seconds
+Domain Reload Profiling: 1384ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (389ms)
+		LoadAssemblies (244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (196ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (180ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 7.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (118.5 KB). Loaded Objects now: 4541.
+Memory consumption went from 146.5 MB to 146.4 MB.
+Total: 5.608900 ms (FindLiveObjects: 0.342400 ms CreateObjectMapping: 0.106400 ms MarkObjects: 5.052300 ms  DeleteObjects: 0.107000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 119.077771 seconds.
+  path: Assets/EasyTransitions/Documentation.pdf
+  artifactKey: Guid(62e2a1b964e6c6841bb6f656211e4470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Documentation.pdf using Guid(62e2a1b964e6c6841bb6f656211e4470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8511d996040c6cfb01fd1fd39c56d7') in 0.008199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 29.810288 seconds.
+  path: Assets/EasyTransitions/Scripts
+  artifactKey: Guid(6db21b846ebf1dc40be35446c959f82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Scripts using Guid(6db21b846ebf1dc40be35446c959f82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16fcb401a30c01aa5e62e801eac5e8ae') in 0.000419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.969593 seconds.
+  path: Assets/EasyTransitions/Transitions
+  artifactKey: Guid(09cfdc466dfaf6c4e8018ec998d37f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions using Guid(09cfdc466dfaf6c4e8018ec998d37f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8062ffff823212e0edf1e0cc5d949112') in 0.000409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.685877 seconds.
+  path: Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOut.anim
+  artifactKey: Guid(a556c279297782c4d9a440d6a4df91d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DiagonalRectangleGrid/DiagonalRectangleGridOut.anim using Guid(a556c279297782c4d9a440d6a4df91d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd569b2acc48f18ac1f68f7df81e57d7a') in 0.001151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 237.022512 seconds.
+  path: Assets/EasyTransitions/Scripts/Transition.cs
+  artifactKey: Guid(b4666d1a46cb76542b7e6e7a7f4893cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Scripts/Transition.cs using Guid(b4666d1a46cb76542b7e6e7a7f4893cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76f7c11e60e379bfa238f5846e128d9') in 0.000486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.647370 seconds.
+  path: Assets/EasyTransitions/Scripts/TransitionManager.cs
+  artifactKey: Guid(61430b0086307cc4da3ccc8d39ae88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Scripts/TransitionManager.cs using Guid(61430b0086307cc4da3ccc8d39ae88da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c55b4173703c532c738072b21c9e23') in 0.000418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.124557 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/Brush.asset
+  artifactKey: Guid(b577ec7af0d48c34a9d31ce17f830a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/Brush.asset using Guid(b577ec7af0d48c34a9d31ce17f830a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248f80a973e69b68fbcf3b31950e621b') in 0.006358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushOUT.prefab
+  artifactKey: Guid(7169acee88d38d5418744538f27d012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushOUT.prefab using Guid(7169acee88d38d5418744538f27d012b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0176af1f425ff6d4d60a23f3fb93cf2e') in 0.010767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EasyTransitions/Transitions/Brush/BrushTransitionAnimation.png
+  artifactKey: Guid(72e1e2584982ed047aea57c42a053ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Brush/BrushTransitionAnimation.png using Guid(72e1e2584982ed047aea57c42a053ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0210a00bd426d3d762286773370e5ffa') in 0.214443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.732733 seconds.
+  path: Assets/EasyTransitions/Transitions/CircleWipe/CircleIN.prefab
+  artifactKey: Guid(9ae6ca60e7061124e9e47ac5bbb31e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/CircleWipe/CircleIN.prefab using Guid(9ae6ca60e7061124e9e47ac5bbb31e9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3fd77d2efab73adcbe743047f2babc') in 0.002885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EasyTransitions/Transitions/CircleWipe/CircleWipe.asset
+  artifactKey: Guid(057babd6f13132c449650d99e3c4e99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/CircleWipe/CircleWipe.asset using Guid(057babd6f13132c449650d99e3c4e99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7199d92215f0fc8998325b6661ec33') in 0.001861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 1.087645 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipe.asset
+  artifactKey: Guid(2eec88d4ca6df24419aab2fd6b04c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipe.asset using Guid(2eec88d4ca6df24419aab2fd6b04c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b983a0a6fffbe16c0376a1265cbe499') in 0.002034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeOUT.prefab
+  artifactKey: Guid(9d1683652e748654694b465b9128c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/DoubleWipe/DoubleWipeOUT.prefab using Guid(9d1683652e748654694b465b9128c43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fa89c7a888c2788c41af520e983e48') in 0.001534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.576 seconds
+Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (245ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (178ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (806ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (173ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 8.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (118.4 KB). Loaded Objects now: 4545.
+Memory consumption went from 146.6 MB to 146.5 MB.
+Total: 5.606100 ms (FindLiveObjects: 0.286500 ms CreateObjectMapping: 0.094400 ms MarkObjects: 5.131000 ms  DeleteObjects: 0.093400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 78.768408 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.prefab
+  artifactKey: Guid(8d1f4c836b7ea734da04a6e5b6221fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.prefab using Guid(8d1f4c836b7ea734da04a6e5b6221fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364211dc4dad48d1f182a86b57741886') in 0.023024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.069876 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOUT.controller
+  artifactKey: Guid(3c4b48bea09858745a2af83e84e29358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOUT.controller using Guid(3c4b48bea09858745a2af83e84e29358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e14528620db902669d9dba408460032') in 0.001796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.215937 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOut.anim
+  artifactKey: Guid(ac0fdc2297018ac4bbc07e3a3f287058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleOut.anim using Guid(ac0fdc2297018ac4bbc07e3a3f287058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25bc6ca9a8bb12118c5aca8723f3a0b') in 0.001020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.612629 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.controller
+  artifactKey: Guid(ec785bc928c130a46bd6bb83a8366252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIN.controller using Guid(ec785bc928c130a46bd6bb83a8366252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a07b6a69d83d106c89163248e36802d') in 0.001169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.451401 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIn.anim
+  artifactKey: Guid(dca44d7890c551b4b899231cae03f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleWipe/RectangleIn.anim using Guid(dca44d7890c551b4b899231cae03f383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a933768e2e483bc757c065b5d4c0109') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.744208 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtain.asset
+  artifactKey: Guid(3ad3e86dc386e60458fda4c93a2c3d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtain.asset using Guid(3ad3e86dc386e60458fda4c93a2c3d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9156c8c444f92109158ea973b9689dcc') in 0.001946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainTransitionAnimation.png
+  artifactKey: Guid(65e153e57f72c9d49ac69842b158411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainTransitionAnimation.png using Guid(65e153e57f72c9d49ac69842b158411a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a514b77b418c151ddb9fb4631db27df1') in 0.146155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 1.080277 seconds.
+  path: Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOut.anim
+  artifactKey: Guid(8b57d6e0df5815443a4effd3a1e50795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/VerticalCurtain/VerticalCurtainOut.anim using Guid(8b57d6e0df5815443a4effd3a1e50795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099f9b700a81488fab4d78b8f4ab50d9') in 0.001117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.576018 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridTransitionAnimation_47.controller
+  artifactKey: Guid(13690ed354f2b434fb1831d7183f78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridTransitionAnimation_47.controller using Guid(13690ed354f2b434fb1831d7183f78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9608ea91cd36a257e77258b73f6ad124') in 0.000794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.584867 seconds.
+  path: Assets/EasyTransitions/Transitions/PaintSplash/PaintSplash.asset
+  artifactKey: Guid(57d2dee28715fc6499379ee5905b3caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/PaintSplash/PaintSplash.asset using Guid(57d2dee28715fc6499379ee5905b3caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bccdc92a238ae5b40e0b2add6523ebc') in 0.001861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashOut.prefab
+  artifactKey: Guid(28c9e4b137f5a424fb352eb97b777b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/PaintSplash/PaintSplashOut.prefab using Guid(28c9e4b137f5a424fb352eb97b777b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ef159a8ee9be82c5fdd70fa5d4695d') in 0.001730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.569 seconds
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.797 seconds
+Domain Reload Profiling: 1363ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (365ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 7.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (118.5 KB). Loaded Objects now: 4549.
+Memory consumption went from 146.6 MB to 146.5 MB.
+Total: 5.626200 ms (FindLiveObjects: 0.368600 ms CreateObjectMapping: 0.099000 ms MarkObjects: 5.055300 ms  DeleteObjects: 0.102500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 39.301474 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/Noise.asset
+  artifactKey: Guid(06fa0ad2bc756f44ab258bc74947381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/Noise.asset using Guid(06fa0ad2bc756f44ab258bc74947381d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c8e49a33723c8ed1044b357a989aa4') in 0.013299 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/EasyTransitions/Transitions/Noise/NoiseTransitionAnimation.png
+  artifactKey: Guid(0e9c828228a767349a6e3b8204eaba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/Noise/NoiseTransitionAnimation.png using Guid(0e9c828228a767349a6e3b8204eaba18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9750150af929d2ee7e31c6ee1d1c617a') in 0.278462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 1.369861 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridTransitionAnimation_47.controller
+  artifactKey: Guid(13690ed354f2b434fb1831d7183f78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridTransitionAnimation_47.controller using Guid(13690ed354f2b434fb1831d7183f78e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5d6677841a5197f9bb4f0218464514') in 0.001759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.902972 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOUT.controller
+  artifactKey: Guid(d38fa53902805514589b90251b82c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/RectangleGridOUT.controller using Guid(d38fa53902805514589b90251b82c9ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270e9c4e589e598414ba734de397d865') in 0.001281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 25.313646 seconds.
+  path: Assets/EasyTransitions/Editor
+  artifactKey: Guid(19ef3e267d0f4214ab7d930e1381ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Editor using Guid(19ef3e267d0f4214ab7d930e1381ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a781deb8f384e33cd27795811d985f') in 0.000423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.122827 seconds.
+  path: Assets/EasyTransitions/Materials
+  artifactKey: Guid(14c74e5b4386b1d4993db6651c285107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Materials using Guid(14c74e5b4386b1d4993db6651c285107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b398a8851ebc80268a0b440405b9be') in 0.000405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.951802 seconds.
+  path: Assets/Scenes/mainRoom.unity
+  artifactKey: Guid(f58754256cab7a24685bd8b2783f0ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mainRoom.unity using Guid(f58754256cab7a24685bd8b2783f0ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd6c0364ba74b5dd7bfe23bf97148aa') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.242526 seconds.
+  path: Assets/Scenes/Starter.unity
+  artifactKey: Guid(5f4f621d49c72ee49abc12b5cf499283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Starter.unity using Guid(5f4f621d49c72ee49abc12b5cf499283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c7f664d19562dccb3a67af23041c01') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Productivity\Projects\Current projects\Gamer Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.570 seconds
+Refreshing native plugins compatible for Editor in 6.75 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1385ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (386ms)
+		LoadAssemblies (233ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (185ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (818ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (371ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 7.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (118.6 KB). Loaded Objects now: 4553.
+Memory consumption went from 146.6 MB to 146.5 MB.
+Total: 5.329600 ms (FindLiveObjects: 0.312100 ms CreateObjectMapping: 0.106400 ms MarkObjects: 4.777800 ms  DeleteObjects: 0.132400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.214429 seconds.
+  path: Assets/EasyTransitions/Transitions/RectangleGrid/New Animation.anim
+  artifactKey: Guid(dd20d85a93a81524d966b25e85c998b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EasyTransitions/Transitions/RectangleGrid/New Animation.anim using Guid(dd20d85a93a81524d966b25e85c998b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a96d4bbd40ca9d89cd4beb023eaf43') in 0.011043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
