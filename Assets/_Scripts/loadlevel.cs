@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,22 +7,56 @@ using UnityEngine.SceneManagement;
 public class loadlevel : MonoBehaviour
 {
 
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField]
+    Animator animator;
+
+    [SerializeField]
+    string name = null;
+
+    private void Awake()
     {
+        name = gameObject.name;
+        animator = GetComponent<Animator>();
+    }
+
+    public void OpenChest()
+    {
+        StartCoroutine(WaitTilChestIsOpen());
 
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator WaitTilChestIsOpen()
     {
-
+        if (name == "WoodChest")
+        {
+            if (animator != null)
+            {
+                animator.SetBool("ChestMayOpen", true);
+                yield return new WaitForSeconds(5.0f);
+                var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+                if (stateInfo.IsName("Animated PBR Chest _Press") && stateInfo.normalizedTime > 1)
+                {
+                    Loadcards();
+                }
+                else
+                {
+                    yield return null;
+                }
+            }
+            else
+            {
+                yield return null;
+            }
+        }
+        else
+        {
+            yield return null;
+        }
     }
-
-
 
     public void Loadcards()
     {
+        
         SceneManager.LoadScene(3);
     }
 
@@ -40,6 +75,10 @@ public class loadlevel : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void LoadWhenDoneAnimating()
+    {
+
+    }
 
 
 

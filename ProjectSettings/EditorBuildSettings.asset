@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Book World.unity
     guid: 5b3d3b8897586f84490fe200df467b97
   - enabled: 1
-    path: Assets/Scenes/card world.unity
-    guid: 3f33f3f7c0db56c4a9561b6d71552674
+    path: Assets/Scenes/cardScene.unity
+    guid: 13b4baeffb03a784aa89e2ff635f6eed
   m_configObjects: {}
