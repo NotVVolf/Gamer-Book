@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class SelectionManager : MonoBehaviour
 {
+    private static SelectionManager instance;
+
     [SerializeField]
     private string selectableTag = "Selectable";
 
@@ -12,11 +15,28 @@ public class SelectionManager : MonoBehaviour
     private Transform _selection;
     [SerializeField]
     private Animator chestAnimator;
+
+    [SerializeField]
+    public GameObject thingWithButton;
+
+    private void Awake()
+    {
+        if(instance != null)
+        {
+            Destroy(gameObject);
+        }
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
         
-        if (_selection != null || Input.GetMouseButtonDown(0))
+        if (_selection != null)
         {
             var selectionRender = _selection.GetComponent<Outline>();
             selectionRender.enabled = false;
@@ -35,13 +55,22 @@ public class SelectionManager : MonoBehaviour
                 if (selectionRender != null &&
                     selectionRender.enabled == false)
                 {
-                    selectionRender.OutlineColor = new Color(154, 31, 31);
-                    selectionRender.OutlineWidth = 5;
+                    //selectionRender.OutlineColor = new Color(154, 31, 31);
+                    //selectionRender.OutlineWidth = 5;
                     selectionRender.enabled = true;
 
 
                 }
                 _selection = newlySelected;
+                if (_selection.name == "BackButton")
+                {
+                    thingWithButton = _selection.gameObject;
+                    Debug.Log("Found the button!");
+                    var showImage = _selection.GetComponent<Image>();
+                    var showButton = _selection.GetComponent<Button>();
+                    showImage.enabled = true;
+                    showButton.enabled = true;
+                }
                 if (Input.GetMouseButtonDown(0) && _selection != null)
                 {
                     var loadLeveler = _selection.GetComponent<loadlevel>();
@@ -56,11 +85,21 @@ public class SelectionManager : MonoBehaviour
                         //loadLeveler.Loadcards();
                         loadLeveler.OpenChest();
                     }
-
                 }
             }
 
+
         }
+        else if (thingWithButton != null && _selection == null)
+            {
+                var showImage = thingWithButton.GetComponent<Image>();
+                var showButton = thingWithButton.GetComponent<Button>();
+                showImage.enabled = false;
+                showButton.enabled = false;
+                Debug.Log("Turning Off Button");
+                thingWithButton = null;
+            }
+
 
     }
 }

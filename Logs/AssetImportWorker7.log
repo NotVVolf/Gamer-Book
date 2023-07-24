@@ -1,0 +1,1342 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32669 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity Projects\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/UnityWork/Unity Projects/Gamer-Book
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+56814
+Successfully changed project path to: D:/UnityWork/Unity Projects/Gamer-Book
+D:/UnityWork/Unity Projects/Gamer-Book
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23712] Host "[IP] 10.0.0.69 [Port] 0 [Flags] 2 [Guid] 2213630634 [EditorId] 2213630634 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TKFQUQ0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23712] Host "[IP] 10.0.0.69 [Port] 0 [Flags] 2 [Guid] 2213630634 [EditorId] 2213630634 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TKFQUQ0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 16.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity Projects/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityWork/Unity Projects/Gamer-Book/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8151 MB
+    Driver:   31.0.14057.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity Projects/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity Projects/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity Projects/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity Projects/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007823 seconds.
+- Loaded All Assemblies, in  0.293 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.230 seconds
+Domain Reload Profiling: 521ms
+	BeginReloadAssembly (80ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (117ms)
+		LoadAssemblies (77ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (100ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (230ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.759 seconds
+Refreshing native plugins compatible for Editor in 7.57 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.840 seconds
+Domain Reload Profiling: 1596ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (554ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (253ms)
+				TypeCache.ScanAssembly (240ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (840ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 9.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4277 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (147.5 KB). Loaded Objects now: 4723.
+Memory consumption went from 155.5 MB to 155.4 MB.
+Total: 6.475700 ms (FindLiveObjects: 0.323600 ms CreateObjectMapping: 0.117700 ms MarkObjects: 5.867000 ms  DeleteObjects: 0.166500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 26827.001226 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Fonts/Treamd.ttf
+  artifactKey: Guid(710893cb65d9db545b7ad2828494677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Fonts/Treamd.ttf using Guid(710893cb65d9db545b7ad2828494677e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287bbf917fee5ea7330616678847798f') in 0.114149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/HolographicCard/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493053a337af826889219cab7a2de493') in 0.090474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_04.mat
+  artifactKey: Guid(61a77c46318d0f543904413c366b516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_04.mat using Guid(61a77c46318d0f543904413c366b516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d81a76ffaf784f76d4679800058b1cc') in 0.024633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_Front.mat
+  artifactKey: Guid(36ad1da93e530d648a7f7d05935d934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_Front.mat using Guid(36ad1da93e530d648a7f7d05935d934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d582d5f9ecf18f11a8c6f405406cae7') in 0.018246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/BookPages/material/page 5.mat
+  artifactKey: Guid(b6c25f54678ba174cbc0246a3a952197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BookPages/material/page 5.mat using Guid(b6c25f54678ba174cbc0246a3a952197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13129edcbb87aeabd45cd25b7176f488') in 0.041689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_16.mat
+  artifactKey: Guid(a81def40864cee24ba4c514f313dd525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/Page_16.mat using Guid(a81def40864cee24ba4c514f313dd525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23eb73af7efda187e403ccfbbda288ed') in 0.023835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BookPages/material/page 4.mat
+  artifactKey: Guid(ef6c75096cab31042950729a742dc196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BookPages/material/page 4.mat using Guid(ef6c75096cab31042950729a742dc196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ba9e9b66615e482b1df285c6cacbaf') in 0.035617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_20.mat
+  artifactKey: Guid(8d01078b2a800b5448016e1a9fe7a224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_20.mat using Guid(8d01078b2a800b5448016e1a9fe7a224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dd465275fc454b291ca4eb0b22fa73') in 0.017592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QuickOutline/Resources/Materials/OutlineMask.mat
+  artifactKey: Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/QuickOutline/Resources/Materials/OutlineMask.mat using Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d827a27bfbe6a973f052347d9ad2d83') in 0.022756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_02.mat
+  artifactKey: Guid(5d59ad445dda3254386037f265887295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/PageViews/PageBackground_02.mat using Guid(5d59ad445dda3254386037f265887295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '877d9a57817cb5a4c8f2a7d265a32d7e') in 0.016668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/BookPages/material/page 3.mat
+  artifactKey: Guid(c14fce22f43cbeb4da6aa532da15436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BookPages/material/page 3.mat using Guid(c14fce22f43cbeb4da6aa532da15436c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee49db0ed1d1836b82044112a10ef7') in 0.023108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.000747 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/Embedded Book/EmbeddedBookPage.mat
+  artifactKey: Guid(5f10d9fd60af52d4aa89e1234e32a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/Embedded Book/EmbeddedBookPage.mat using Guid(5f10d9fd60af52d4aa89e1234e32a307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e0975cc22b26cd026b17a7196cbd00') in 0.020947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Material/EmeraldCutDiamond.mat
+  artifactKey: Guid(8d9c38c6f3823004183bde9ca26c3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Material/EmeraldCutDiamond.mat using Guid(8d9c38c6f3823004183bde9ca26c3021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97491bf48cca3c8cb3207934e275c2d4') in 0.177639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/roomAssets/Materials/coffee table.mat
+  artifactKey: Guid(be1d959f3ad1333459eb108bdc9f44ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/coffee table.mat using Guid(be1d959f3ad1333459eb108bdc9f44ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0ea55fe6bd8f51a4264378d0871e65') in 0.021323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/BookCover.mat
+  artifactKey: Guid(12a6cbdd77c2f9142aca65e397c68bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/BookCover.mat using Guid(12a6cbdd77c2f9142aca65e397c68bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50dfd66c5751312f7f32d426a02348c') in 0.018852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HolographicCard/Materials/BaseCard/BaseCardStencil.mat
+  artifactKey: Guid(68ddcda5aae99ebed828f59aac3aa45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Materials/BaseCard/BaseCardStencil.mat using Guid(68ddcda5aae99ebed828f59aac3aa45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fb0802422310ea7e5eeaafb6781a54') in 0.006757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/CoverExtras.mat
+  artifactKey: Guid(67fd73918babf2a4a9acc79c838b21ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Materials/Main Book/CoverExtras.mat using Guid(67fd73918babf2a4a9acc79c838b21ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1ec63b24c1cd74c1476b6efb61fced') in 0.017987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Material/DiamondRing.mat
+  artifactKey: Guid(d3989bff6c3c91540b798d228deb3324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Material/DiamondRing.mat using Guid(d3989bff6c3c91540b798d228deb3324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6961d30f4c63d577818eb40b010d40') in 0.183284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.760 seconds
+Refreshing native plugins compatible for Editor in 9.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.316 seconds
+Domain Reload Profiling: 2073ms
+	BeginReloadAssembly (148ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (535ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (257ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1317ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (729ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 10.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.4 KB). Loaded Objects now: 4771.
+Memory consumption went from 151.5 MB to 151.4 MB.
+Total: 7.276700 ms (FindLiveObjects: 0.394200 ms CreateObjectMapping: 0.114300 ms MarkObjects: 6.665400 ms  DeleteObjects: 0.101900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.706 seconds
+Refreshing native plugins compatible for Editor in 8.07 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.240 seconds
+Domain Reload Profiling: 1943ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (226ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1240ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (719ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (409ms)
+			ProcessInitializeOnLoadMethodAttributes (147ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 9.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4774.
+Memory consumption went from 151.8 MB to 151.7 MB.
+Total: 7.142600 ms (FindLiveObjects: 0.468000 ms CreateObjectMapping: 0.125000 ms MarkObjects: 6.417200 ms  DeleteObjects: 0.131400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.707 seconds
+Refreshing native plugins compatible for Editor in 7.72 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.203 seconds
+Domain Reload Profiling: 1907ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (694ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4777.
+Memory consumption went from 151.8 MB to 151.7 MB.
+Total: 6.665600 ms (FindLiveObjects: 0.363700 ms CreateObjectMapping: 0.109200 ms MarkObjects: 6.073400 ms  DeleteObjects: 0.118400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1312.041457 seconds.
+  path: Assets/roomAssets/Materials/Floor_normal.jpeg
+  artifactKey: Guid(c4f9277b93f0fd44e9268352bb339e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/Floor_normal.jpeg using Guid(c4f9277b93f0fd44e9268352bb339e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ec2f6268a1535dda6d31179d77b00b') in 0.066936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperRealisticDiamondShaders/CubeMaps/IntererHDRI_36.hdr
+  artifactKey: Guid(f4d43648c53283445a409e2fcba676cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/CubeMaps/IntererHDRI_36.hdr using Guid(f4d43648c53283445a409e2fcba676cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd18b9f9740058bef336a937f42d648e9') in 0.203857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HolographicCard/Texture/Noise23.png
+  artifactKey: Guid(fe21bfd9df1f65917885993824f8aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/Noise23.png using Guid(fe21bfd9df1f65917885993824f8aafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0567ce976d6fc73f8961603089b855bd') in 0.026853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Page_20.renderTexture
+  artifactKey: Guid(e03e428a70328234fb15b482f086fa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Page_20.renderTexture using Guid(e03e428a70328234fb15b482f086fa04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58514667171cf57fd3c9ded8f874ba4c') in 0.022996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Page_07.png
+  artifactKey: Guid(452da7f9553900e4ba8d2b1ba6536d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Page_07.png using Guid(452da7f9553900e4ba8d2b1ba6536d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c50065a21f82ce10af9c0bb085a8607') in 0.020927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Page_14.png
+  artifactKey: Guid(84897daa9a95c87418e4103b36932c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Page_14.png using Guid(84897daa9a95c87418e4103b36932c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000acd6d5d41962de19c93430f188ce8') in 0.024356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Note1.png
+  artifactKey: Guid(1d0069fd9d08d00448acf1ba8367d720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Note1.png using Guid(1d0069fd9d08d00448acf1ba8367d720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ec05d898418c7837b1b81340002eaa') in 0.023827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Page_03.png
+  artifactKey: Guid(aaf8dc2903609404885c2c99ec233f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Page_03.png using Guid(aaf8dc2903609404885c2c99ec233f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cd1ad493c5ba0f89faad640d966171') in 0.025549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg
+  artifactKey: Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Header.jpg using Guid(78a59ca99f8987941adb61f9e14a06a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e39a4b19f70574c13a63a826d17864') in 0.023926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HolographicCard/Texture/Noise53.png
+  artifactKey: Guid(36d4f50af5b90babab2d3ca4200591b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/Noise53.png using Guid(36d4f50af5b90babab2d3ca4200591b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf6a88e9edade02807ccdd7093f4a3d') in 0.027737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Page_12.png
+  artifactKey: Guid(6f158d57b02a2984d9a7239536873975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Page_12.png using Guid(6f158d57b02a2984d9a7239536873975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb0272852564aaf9344f01b41df4da0') in 0.021152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Textures/TextureMaterial/HDRI5.psd
+  artifactKey: Guid(b3cd7961c290add479e90043dd406b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Textures/TextureMaterial/HDRI5.psd using Guid(b3cd7961c290add479e90043dd406b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287d2a86aa5c59b05bcd1a630b919ddd') in 0.038153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png
+  artifactKey: Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/Footer_dark.png using Guid(519694efe2bb2914788b151fbd8c01f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbcdddf5c45aaca611252b1055108dc') in 0.019681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/HolographicCard/Texture/miniStart.png
+  artifactKey: Guid(73d91dd7f395082009115e367f6f19cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/miniStart.png using Guid(73d91dd7f395082009115e367f6f19cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74df6498accc86c3110841cf1095f48b') in 0.019925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Page_19.renderTexture
+  artifactKey: Guid(9aac86d4af85aa24da95476ae934aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Page_19.renderTexture using Guid(9aac86d4af85aa24da95476ae934aa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036f1ed0d0285516473ac0354229ba87') in 0.007272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/HolographicCard/Texture/Noise37.png
+  artifactKey: Guid(57df592c0c024db12af3770a64804ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/Noise37.png using Guid(57df592c0c024db12af3770a64804ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d63c3c4e334bdc4d58240770abeb32') in 0.022803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/PageBackground.L.png
+  artifactKey: Guid(8bc26d164fcdc194c84f53b0cf7ca615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/PageBackground.L.png using Guid(8bc26d164fcdc194c84f53b0cf7ca615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0381052ef4fcb75cec830066326e9311') in 0.022477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/HolographicCard/Texture/Images1/hades.png
+  artifactKey: Guid(2540c814bda901b52919041e9aa0b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/Images1/hades.png using Guid(2540c814bda901b52919041e9aa0b1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5342b704d75fe4c65f4cde6f5f454dc') in 0.031943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.purchasing/Icons/LinkWhite.png
+  artifactKey: Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.purchasing/Icons/LinkWhite.png using Guid(e679a29ca22bc4fa0bd848bd79a42b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232108b8290451c5e74ffeae17b85cd6') in 0.019579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animated PBR Chest Demo/Textures/orblight_D.png
+  artifactKey: Guid(334fa29eedc15a6449e2a6257dc69f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animated PBR Chest Demo/Textures/orblight_D.png using Guid(334fa29eedc15a6449e2a6257dc69f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f88777f6189fd5a4b28cdc5d1abc96cf') in 0.020604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Textures/TextureMaterial/HDRI4.psd
+  artifactKey: Guid(43857f64b9cb80249bfee47fc411e27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Textures/TextureMaterial/HDRI4.psd using Guid(43857f64b9cb80249bfee47fc411e27d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe897c0e186f494dfd0e5065a5dd19df') in 0.029691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Demos/Diamond Scene2/Lightmap-0_comp_dir.png
+  artifactKey: Guid(63d685ddfec769d46a7bd630124db7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Demos/Diamond Scene2/Lightmap-0_comp_dir.png using Guid(63d685ddfec769d46a7bd630124db7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadfe49270f611590da15735c53589ab') in 0.035328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png
+  artifactKey: Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Demigiant/DOTween/Editor/Imgs/DOTweenIcon.png using Guid(8da095e39e9b4df488dfd436f81116d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4efcbd486047cc0ced6d715f42f260') in 0.020596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Demos/Coockie/CookieDiamond.png
+  artifactKey: Guid(173e2f71f36d99a4cbec28dbd123cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Demos/Coockie/CookieDiamond.png using Guid(173e2f71f36d99a4cbec28dbd123cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6309cd8d55ba54963ac6e17efe209419') in 0.020951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/roomAssets/Materials/Coffee_table_2_basecolor.jpeg
+  artifactKey: Guid(bda749fdbb6da364b93cf6eb29cd71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/Coffee_table_2_basecolor.jpeg using Guid(bda749fdbb6da364b93cf6eb29cd71e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96a26e8e7d454e746093b2dfb7902ea') in 0.021281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HolographicCard/Texture/Images0/cabbage.png
+  artifactKey: Guid(5e15d3dc5753403978604855198fc4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/Images0/cabbage.png using Guid(5e15d3dc5753403978604855198fc4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ede8c2be2342c604482abf05c04f947') in 0.024174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/roomAssets/Materials/Banquet_smoothness.jpeg
+  artifactKey: Guid(36675914363e7b24fac29e96be7df505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/Banquet_smoothness.jpeg using Guid(36675914363e7b24fac29e96be7df505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac6b51ceca341004e2b9a6918235517') in 0.021950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/HolographicCard/Texture/bluey 1.png
+  artifactKey: Guid(99fb8f2e78cc03138bedeaf43d93d753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/bluey 1.png using Guid(99fb8f2e78cc03138bedeaf43d93d753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '567839dd5d4468b9b8ecaf3af60652b7') in 0.011839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/roomAssets/Materials/Banquet_normal.jpeg
+  artifactKey: Guid(ba31124f418607a41ad183391e1c7ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/Banquet_normal.jpeg using Guid(ba31124f418607a41ad183391e1c7ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7c3b883ed86f776e2be6065dcaeca8') in 0.021051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Textures/TextureMaterial/Cube_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(5fdee332b12325f438825074af340437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Textures/TextureMaterial/Cube_DefaultMaterial_MetallicSmoothness.png using Guid(5fdee332b12325f438825074af340437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ab5cce891694d94a1648dec24e68be') in 0.013287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/roomAssets/Materials/Cup_plate_basecolor.jpeg
+  artifactKey: Guid(e3b8145b93da221488ca50f95817a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/Cup_plate_basecolor.jpeg using Guid(e3b8145b93da221488ca50f95817a2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52745a9d62ad9ef163478572e923589') in 0.021159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-26_ 15_ 4858051 shapeTexture_.asset
+  artifactKey: Guid(a26cca4a39bd4d642ad5eff10734744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-26_ 15_ 4858051 shapeTexture_.asset using Guid(a26cca4a39bd4d642ad5eff10734744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b8d12e58e5bce3ae3eef48299a1431') in 0.013635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-06-17_ 9_ 35-65075 shapeTexture_.asset
+  artifactKey: Guid(d17cb14e8b10f314cb56a457a10c2a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-06-17_ 9_ 35-65075 shapeTexture_.asset using Guid(d17cb14e8b10f314cb56a457a10c2a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9292879178dbe83b83b366cc1d5b6f3') in 0.013128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-19_ 20_ 44-48140 shapeTexture_.asset
+  artifactKey: Guid(5eb7321fe7709834eb1a642cd66a5863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-19_ 20_ 44-48140 shapeTexture_.asset using Guid(5eb7321fe7709834eb1a642cd66a5863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9cc3cfc1030595130fb3f129e6a430') in 0.013044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-21_ 17_ 4489559 shapeTexture_.asset
+  artifactKey: Guid(d8cec9eb32dd6e44595a1f77d4741351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-21_ 17_ 4489559 shapeTexture_.asset using Guid(d8cec9eb32dd6e44595a1f77d4741351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23202335e75e00ebb580ec74df2f1aa') in 0.013773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-06-17_ 7_ 26-81269 shapeTexture_.asset
+  artifactKey: Guid(a1f5c8114f8566c43914935efeffd792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-06-17_ 7_ 26-81269 shapeTexture_.asset using Guid(a1f5c8114f8566c43914935efeffd792) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc67a405f641e178a2f11f05d5f2b87c') in 0.005930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-11_ 16_ 1334581 shapeTexture_.asset
+  artifactKey: Guid(9522a658615c8b64894d9c5ceec48c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-11_ 16_ 1334581 shapeTexture_.asset using Guid(9522a658615c8b64894d9c5ceec48c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dafc78cab9011afa05e97a4813e69327') in 0.005413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-12_ 16_ 45-86228 shapeTexture_.asset
+  artifactKey: Guid(8ab1124762f78a348a377ac49a806c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-12_ 16_ 45-86228 shapeTexture_.asset using Guid(8ab1124762f78a348a377ac49a806c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47299a4b71df773bbe62196701b560d') in 0.013113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4093064 shapeTexture_.asset
+  artifactKey: Guid(04e25d6da9bae2a4187ce3d72c80306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4093064 shapeTexture_.asset using Guid(04e25d6da9bae2a4187ce3d72c80306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c8d9d1252fbf9674d22a283ef171f8') in 0.014718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-11_ 16_ 992707 shapeTexture_.asset
+  artifactKey: Guid(6f0f259e2e3b0fa4db2ab09f08330465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-11_ 16_ 992707 shapeTexture_.asset using Guid(6f0f259e2e3b0fa4db2ab09f08330465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0ebe64538f910afe3fffddfd2f94ae') in 0.016317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-21_ 19_ 3-32398 shapeTexture_.asset
+  artifactKey: Guid(c0f1c989afbdef74eb9106458a0e4170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-21_ 19_ 3-32398 shapeTexture_.asset using Guid(c0f1c989afbdef74eb9106458a0e4170) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96f66e5e488e2932c8c19cd6dd52e6af') in 0.005430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/Blank.png
+  artifactKey: Guid(8b87edcd974ee024ca84a354fc5ad127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/Blank.png using Guid(8b87edcd974ee024ca84a354fc5ad127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf3c765876fdcb983afbdced922d4ae') in 0.020730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4081371 shapeTexture_.asset
+  artifactKey: Guid(263ec00f99e27a74983f777244b74572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4081371 shapeTexture_.asset using Guid(263ec00f99e27a74983f777244b74572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817587c5ed40aee6b9757d8fe847ce93') in 0.012498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4064252 shapeTexture_.asset
+  artifactKey: Guid(db918760a5f50734e8b3d02dc3806d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4064252 shapeTexture_.asset using Guid(db918760a5f50734e8b3d02dc3806d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c19530778b20111129dd82924d0b41e') in 0.012369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/BookCover.png
+  artifactKey: Guid(98a6dcd027b121c45aa1cbba90831069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/BookCover.png using Guid(98a6dcd027b121c45aa1cbba90831069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4865c9083c20d61db8c4d009b4c83009') in 0.019712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/HolographicCard/Texture/bluey.png
+  artifactKey: Guid(6d298591c529fd31782ac2297c23f88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/bluey.png using Guid(6d298591c529fd31782ac2297c23f88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9288c464c488f7147a773cdebd165178') in 0.012598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-19_ 20_ 44-46124 shapeTexture_.asset
+  artifactKey: Guid(9cd17ca0115413d409a243b8af8f9165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-19_ 20_ 44-46124 shapeTexture_.asset using Guid(9cd17ca0115413d409a243b8af8f9165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe43a2a40d298fd104ab70b696d149b') in 0.005097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4069906 shapeTexture_.asset
+  artifactKey: Guid(c8d597255c81cc84db10a6c417f53af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 17_ 4069906 shapeTexture_.asset using Guid(c8d597255c81cc84db10a6c417f53af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3ee10c3054b240f39416bf977ab590c') in 0.012940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-19_ 20_ 4492779 shapeTexture_.asset
+  artifactKey: Guid(d0087a364f577c44ebda86e2e8dab52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-19_ 20_ 4492779 shapeTexture_.asset using Guid(d0087a364f577c44ebda86e2e8dab52f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a586ff5ccd0984c1de8da7f439567519') in 0.005349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/HolographicCard/Texture/Images0/alejandro.png
+  artifactKey: Guid(d1e72a78a1cab7486a64a9eba1b467d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Texture/Images0/alejandro.png using Guid(d1e72a78a1cab7486a64a9eba1b467d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006b446c0ab3110f206ad90d19732011') in 0.023643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-06-17_ 7_ 2743616 shapeTexture_.asset
+  artifactKey: Guid(1d0b5e956fd4e294eb1f946fc9eaab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-06-17_ 7_ 2743616 shapeTexture_.asset using Guid(1d0b5e956fd4e294eb1f946fc9eaab37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3820ecd4a5e5fbf403aebf5b995c36') in 0.005522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/roomAssets/Materials/Banquet_basecolor.jpeg
+  artifactKey: Guid(f45d3fb8cba42a1469bc97508b4918f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/roomAssets/Materials/Banquet_basecolor.jpeg using Guid(f45d3fb8cba42a1469bc97508b4918f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59625c401660e1a4f36daa58a4606b64') in 0.018838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/BookPageBack.png
+  artifactKey: Guid(5821cd3a76bd2b642b8a6f2a4fa2dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/BookPageBack.png using Guid(5821cd3a76bd2b642b8a6f2a4fa2dde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf7c29832635bd53ccb3d2c429da2e3b') in 0.022512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-21_ 14_ 35-67924 shapeTexture_.asset
+  artifactKey: Guid(a1fa3885f9f2e0245a702a40b13ea70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-21_ 14_ 35-67924 shapeTexture_.asset using Guid(a1fa3885f9f2e0245a702a40b13ea70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2b5986fde56df05feaba276a24d472') in 0.014136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Demos/Diamond Scene/Lightmap-1_comp_dir.png
+  artifactKey: Guid(53d65a8d750440e4da421bf942c4fcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Demos/Diamond Scene/Lightmap-1_comp_dir.png using Guid(53d65a8d750440e4da421bf942c4fcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04dc0d61bdf08c151ecb705c7c78405') in 0.037186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/BookCoverNormals.png
+  artifactKey: Guid(ae5190fea478f794fb7ca354331118eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/BookCoverNormals.png using Guid(ae5190fea478f794fb7ca354331118eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da43456d04d9e2f6e80e9439ab78f784') in 0.021594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Demos/Diamond Scene/Lightmap-0_comp_dir.png
+  artifactKey: Guid(2adf29e3ddaa6cc48a2e83dc3c298669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Demos/Diamond Scene/Lightmap-0_comp_dir.png using Guid(2adf29e3ddaa6cc48a2e83dc3c298669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c8dd748c51c76f16d59214209504985') in 0.036966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.761 seconds
+Refreshing native plugins compatible for Editor in 8.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.427 seconds
+Domain Reload Profiling: 2186ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (540ms)
+		LoadAssemblies (352ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (789ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (442ms)
+			ProcessInitializeOnLoadMethodAttributes (149ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 9.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4794.
+Memory consumption went from 151.7 MB to 151.6 MB.
+Total: 9.825300 ms (FindLiveObjects: 0.567100 ms CreateObjectMapping: 0.147800 ms MarkObjects: 8.973500 ms  DeleteObjects: 0.135300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.707 seconds
+Refreshing native plugins compatible for Editor in 8.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.223 seconds
+Domain Reload Profiling: 1927ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (246ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (418ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4797.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.048600 ms (FindLiveObjects: 0.380100 ms CreateObjectMapping: 0.112700 ms MarkObjects: 6.444300 ms  DeleteObjects: 0.110400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 8.23 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.248 seconds
+Domain Reload Profiling: 1956ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1249ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4800.
+Memory consumption went from 152.0 MB to 151.8 MB.
+Total: 6.832400 ms (FindLiveObjects: 0.426300 ms CreateObjectMapping: 0.147500 ms MarkObjects: 6.151000 ms  DeleteObjects: 0.106100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 671.691400 seconds.
+  path: Assets/SuperRealisticDiamondShaders/Shaders/Materials/Plane White 2.mat
+  artifactKey: Guid(aae0c50e5a74a124a894b8ccc22a8b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/Shaders/Materials/Plane White 2.mat using Guid(aae0c50e5a74a124a894b8ccc22a8b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c30c48a19238946a9d571ec7895df3') in 0.071168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/HolographicCard/Materials/CardContent/SpriteMaterial.mat
+  artifactKey: Guid(58bf4b634ff3d6bc3af5833665de9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolographicCard/Materials/CardContent/SpriteMaterial.mat using Guid(58bf4b634ff3d6bc3af5833665de9720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9313019ac73df31fc9b12aaa1fc5526') in 0.007208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 8.43 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 2080ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (254ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (238ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 10.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4238 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.4 KB). Loaded Objects now: 4804.
+Memory consumption went from 152.0 MB to 151.9 MB.
+Total: 6.930100 ms (FindLiveObjects: 0.407200 ms CreateObjectMapping: 0.115900 ms MarkObjects: 6.305000 ms  DeleteObjects: 0.101200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PlayNextLevel.cs: 299279e73822b9618e9b3a9ba1572a55 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

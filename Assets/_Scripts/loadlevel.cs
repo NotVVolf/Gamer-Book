@@ -13,6 +13,9 @@ public class loadlevel : MonoBehaviour
     [SerializeField]
     string name = null;
 
+    [SerializeField]
+    GameObject thingWithButton;
+
     private void Awake()
     {
         name = gameObject.name;
@@ -32,7 +35,7 @@ public class loadlevel : MonoBehaviour
             if (animator != null)
             {
                 animator.SetBool("ChestMayOpen", true);
-                yield return new WaitForSeconds(5.0f);
+                yield return new WaitForSeconds(3.0f);
                 var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
                 if (stateInfo.IsName("Animated PBR Chest _Press") && stateInfo.normalizedTime > 1)
                 {
@@ -79,8 +82,5 @@ public class loadlevel : MonoBehaviour
     {
 
     }
-
-
-
 
 }

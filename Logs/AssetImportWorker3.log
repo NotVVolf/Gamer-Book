@@ -2969,3 +2969,955 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.715 seconds
+Refreshing native plugins compatible for Editor in 9.50 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.109 seconds
+Domain Reload Profiling: 1820ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (302ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (257ms)
+			TypeCache.Refresh (250ms)
+				TypeCache.ScanAssembly (237ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 7.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.4 KB). Loaded Objects now: 4881.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 6.362900 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.110300 ms MarkObjects: 5.797800 ms  DeleteObjects: 0.100800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 7.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (294ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (252ms)
+			TypeCache.Refresh (245ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (628ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 8.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.3 KB). Loaded Objects now: 4884.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 6.782100 ms (FindLiveObjects: 0.380200 ms CreateObjectMapping: 0.110500 ms MarkObjects: 6.173400 ms  DeleteObjects: 0.116900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.703 seconds
+Refreshing native plugins compatible for Editor in 8.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.249 seconds
+Domain Reload Profiling: 1949ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (500ms)
+		LoadAssemblies (308ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1250ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (711ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (140ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4887.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.079900 ms (FindLiveObjects: 0.390500 ms CreateObjectMapping: 0.112000 ms MarkObjects: 6.473100 ms  DeleteObjects: 0.103300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.686 seconds
+Refreshing native plugins compatible for Editor in 7.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.198 seconds
+Domain Reload Profiling: 1881ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (296ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1198ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (412ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 9.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4890.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 6.973500 ms (FindLiveObjects: 0.383000 ms CreateObjectMapping: 0.147900 ms MarkObjects: 6.335300 ms  DeleteObjects: 0.106400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.699 seconds
+Refreshing native plugins compatible for Editor in 7.79 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.207 seconds
+Domain Reload Profiling: 1904ms
+	BeginReloadAssembly (125ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (501ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (228ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1207ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4893.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.204200 ms (FindLiveObjects: 0.440800 ms CreateObjectMapping: 0.131100 ms MarkObjects: 6.497900 ms  DeleteObjects: 0.133300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.717 seconds
+Refreshing native plugins compatible for Editor in 7.89 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.223 seconds
+Domain Reload Profiling: 1938ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (496ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (247ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (712ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (143ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (138ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 8.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.4 KB). Loaded Objects now: 4896.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 6.336700 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.110000 ms MarkObjects: 5.776300 ms  DeleteObjects: 0.100600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.696 seconds
+Refreshing native plugins compatible for Editor in 7.77 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.194 seconds
+Domain Reload Profiling: 1887ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (495ms)
+		LoadAssemblies (297ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (249ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (233ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1194ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (707ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.5 KB). Loaded Objects now: 4899.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.735600 ms (FindLiveObjects: 0.555300 ms CreateObjectMapping: 0.112300 ms MarkObjects: 6.954000 ms  DeleteObjects: 0.112800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.702 seconds
+Refreshing native plugins compatible for Editor in 7.80 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.228 seconds
+Domain Reload Profiling: 1927ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (304ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (225ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1228ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (710ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.4 KB). Loaded Objects now: 4902.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.269800 ms (FindLiveObjects: 0.366900 ms CreateObjectMapping: 0.119000 ms MarkObjects: 6.678100 ms  DeleteObjects: 0.104300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityWork\Unity Projects\Gamer-Book\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 7.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+System.Reflection.TargetException: Non-static method requires a target.
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00019] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <bf6080dbf0564cf1b405dfd6e0dac725>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.234 seconds
+Domain Reload Profiling: 1922ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (490ms)
+		LoadAssemblies (300ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (224ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1235ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (706ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 9.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 57 unused Assets / (118.4 KB). Loaded Objects now: 4905.
+Memory consumption went from 151.9 MB to 151.8 MB.
+Total: 7.392300 ms (FindLiveObjects: 0.403000 ms CreateObjectMapping: 0.101600 ms MarkObjects: 6.781700 ms  DeleteObjects: 0.104600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/hover.cs: 42d92858972f5ee224726362910434e4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4587.180861 seconds.
+  path: Assets/SuperRealisticDiamondShaders/CubeMaps/Cubemap/3.hdr
+  artifactKey: Guid(bd436d3c8940e004ba81923ecc075699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/CubeMaps/Cubemap/3.hdr using Guid(bd436d3c8940e004ba81923ecc075699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5b972546e1c34960d11ab5b407db8d') in 0.123700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1683135 shapeTexture_.asset
+  artifactKey: Guid(f692cea575951cc40a759c0a19d8b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1683135 shapeTexture_.asset using Guid(f692cea575951cc40a759c0a19d8b589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc03ed41e02527dc56a5250022146795') in 0.018090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1667419 shapeTexture_.asset
+  artifactKey: Guid(efba715ebafb574418fd402ea05a5831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1667419 shapeTexture_.asset using Guid(efba715ebafb574418fd402ea05a5831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae10573fa813a92d4f801e8e9e408349') in 0.004969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5511797 shapeTexture_.asset
+  artifactKey: Guid(6a28356d5b5154f4baf1735710512df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5511797 shapeTexture_.asset using Guid(6a28356d5b5154f4baf1735710512df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b73861cf3e12dbbebf97e409dc0ea') in 0.011921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EndlessBook/Demos/Demo 02/Textures/111158-OO1W0R-753.jpg
+  artifactKey: Guid(d4edf3351771bef44860ff085ee3d5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EndlessBook/Demos/Demo 02/Textures/111158-OO1W0R-753.jpg using Guid(d4edf3351771bef44860ff085ee3d5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4688c5410f53864da279ebea26b714b') in 0.028182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5556926 shapeTexture_.asset
+  artifactKey: Guid(7108d4bb601197e49acb0ea90e57a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5556926 shapeTexture_.asset using Guid(7108d4bb601197e49acb0ea90e57a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70177987d9f6c32b8c9ff6dd3296f8b3') in 0.018493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-1330 shapeTexture_.asset
+  artifactKey: Guid(8487a199ed6b8674bb30e83aa912d073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-1330 shapeTexture_.asset using Guid(8487a199ed6b8674bb30e83aa912d073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25494b54215a326836780eebaf9413dd') in 0.008640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5537758 shapeTexture_.asset
+  artifactKey: Guid(772d61c7ed9aa7a41bc1f8f4b4234038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5537758 shapeTexture_.asset using Guid(772d61c7ed9aa7a41bc1f8f4b4234038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0252d3a1aaf0555778280a3b74baf6') in 0.021544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-24131 shapeTexture_.asset
+  artifactKey: Guid(6124940ffb6954149a59da8c3f415cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-24131 shapeTexture_.asset using Guid(6124940ffb6954149a59da8c3f415cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4eb48fc1842e88303697644a3ff564') in 0.019923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SuperRealisticDiamondShaders/CubeMaps/31a2bb886f91db328c95f70e7cd51cdf1ea757ae 2.png
+  artifactKey: Guid(9ca12d7c8627bbb439c4921fb34a7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/CubeMaps/31a2bb886f91db328c95f70e7cd51cdf1ea757ae 2.png using Guid(9ca12d7c8627bbb439c4921fb34a7c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a57dcb033e59cecc6eb92be60e41dd') in 0.108653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-66174 shapeTexture_.asset
+  artifactKey: Guid(02d6cac461ae78b4fa7d1d89beee3e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-66174 shapeTexture_.asset using Guid(02d6cac461ae78b4fa7d1d89beee3e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e3c0f7c8c494688f9b66be0ccb5e02') in 0.012409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 4641365 shapeTexture_.asset
+  artifactKey: Guid(e805daf46b963d1498ed51191005db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 4641365 shapeTexture_.asset using Guid(e805daf46b963d1498ed51191005db74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b393e01710806d926b3cf3e1622fea') in 0.015736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SuperRealisticDiamondShaders/CubeMaps/31a2bb886f91db328c95f70e7cd51cdf1ea757ae.png
+  artifactKey: Guid(3570c09c84b9f684db846d8339919dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/CubeMaps/31a2bb886f91db328c95f70e7cd51cdf1ea757ae.png using Guid(3570c09c84b9f684db846d8339919dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43561aaec28685cd90e66ed2a899c4c2') in 0.043267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-27519 shapeTexture_.asset
+  artifactKey: Guid(c828c650fe5a6ff4cba5fc81a8bb02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-27519 shapeTexture_.asset using Guid(c828c650fe5a6ff4cba5fc81a8bb02f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b70c1046262ef3603d33479b8c6b028b') in 0.013721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1650443 shapeTexture_.asset
+  artifactKey: Guid(de36e54572d659e44a3f91d3d7e9460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1650443 shapeTexture_.asset using Guid(de36e54572d659e44a3f91d3d7e9460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75581cc55e48375373162a8c5609ca4b') in 0.014559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-89038 shapeTexture_.asset
+  artifactKey: Guid(7d786e749b63b2e4b8f833dab72361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-89038 shapeTexture_.asset using Guid(7d786e749b63b2e4b8f833dab72361c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a4db454c74382213f758cf6c175ddc') in 0.007079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-55597 shapeTexture_.asset
+  artifactKey: Guid(f37a0117146f11c4e9f5b9ba4e65a0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-55597 shapeTexture_.asset using Guid(f37a0117146f11c4e9f5b9ba4e65a0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea11c8337e08699c334b4cf91f3eaf') in 0.013920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-44277 shapeTexture_.asset
+  artifactKey: Guid(630223332b743c64899e573e5efc1a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-44277 shapeTexture_.asset using Guid(630223332b743c64899e573e5efc1a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabcbef5bc678100f049b38f9f51ed2c') in 0.016409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 4680949 shapeTexture_.asset
+  artifactKey: Guid(7e95c55c666759c44afdc82e0840098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 4680949 shapeTexture_.asset using Guid(7e95c55c666759c44afdc82e0840098f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6134dd9362ead895af88683aa1e9900') in 0.014819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1696898 shapeTexture_.asset
+  artifactKey: Guid(237e7e25f856c99489f32b0fdc6da5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1696898 shapeTexture_.asset using Guid(237e7e25f856c99489f32b0fdc6da5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36430e2fd3dfd88d7ae3e777e612e6') in 0.005255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1673290 shapeTexture_.asset
+  artifactKey: Guid(70b6d9010c29e674ab71caffbdb4b7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1673290 shapeTexture_.asset using Guid(70b6d9010c29e674ab71caffbdb4b7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa9dc7ec3102ff2284069888a4e179ec') in 0.005200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-95868 shapeTexture_.asset
+  artifactKey: Guid(baad9be17887d9149921bfa4314459d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-95868 shapeTexture_.asset using Guid(baad9be17887d9149921bfa4314459d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d829263fc6d600b9bdb29575a31a0d') in 0.013758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 169456 shapeTexture_.asset
+  artifactKey: Guid(4b4774da4d5eb624ea79414a02dc0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 169456 shapeTexture_.asset using Guid(4b4774da4d5eb624ea79414a02dc0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc27310f3abc99488c80d777f60711ab') in 0.016263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-68085 shapeTexture_.asset
+  artifactKey: Guid(6b8d36cfeb1fa2d4bb74c132326fc532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-68085 shapeTexture_.asset using Guid(6b8d36cfeb1fa2d4bb74c132326fc532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248cd13066d7bf04e539346dc24bab9c') in 0.005860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-38927 shapeTexture_.asset
+  artifactKey: Guid(ae89466b79d80df40a10c6a53ec2dea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 13_ 46-38927 shapeTexture_.asset using Guid(ae89466b79d80df40a10c6a53ec2dea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e7e78d8268f67ee1df2e6e4487092e') in 0.012607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 56-63279 shapeTexture_.asset
+  artifactKey: Guid(15e2ee33277a9d247b0232279687218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 56-63279 shapeTexture_.asset using Guid(15e2ee33277a9d247b0232279687218b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64435c169206ae67ff9eaf192c927d0e') in 0.014234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-40308 shapeTexture_.asset
+  artifactKey: Guid(4c328fc51b3535b458a0b0c5523e9df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-40308 shapeTexture_.asset using Guid(4c328fc51b3535b458a0b0c5523e9df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9defc6586bf422e534a45a16c3077b') in 0.005950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-79776 shapeTexture_.asset
+  artifactKey: Guid(925ee0d36b2e6be44b430d8c34a90ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-79776 shapeTexture_.asset using Guid(925ee0d36b2e6be44b430d8c34a90ccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fbe401bc46376392b7d244d38b6067') in 0.005959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-32220 shapeTexture_.asset
+  artifactKey: Guid(ba40e1e78f20cc442a7490e24bfd0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-32220 shapeTexture_.asset using Guid(ba40e1e78f20cc442a7490e24bfd0ae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e494491af2df7ec48294eca8cbbc70') in 0.005667 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 167190 shapeTexture_.asset
+  artifactKey: Guid(4b2eddac93767814e80a0ece45b43220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 167190 shapeTexture_.asset using Guid(4b2eddac93767814e80a0ece45b43220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6945cd49e1a458ac46f2798598bdb74') in 0.013628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-10632 shapeTexture_.asset
+  artifactKey: Guid(affeca81b9182b442bf8db6853966df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 55-10632 shapeTexture_.asset using Guid(affeca81b9182b442bf8db6853966df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804156dd28006caf7df19e6f802f1292') in 0.005618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5596938 shapeTexture_.asset
+  artifactKey: Guid(3cdd8aa096a1121438455f9b4ce0e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 5596938 shapeTexture_.asset using Guid(3cdd8aa096a1121438455f9b4ce0e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459e56f03708f01db119d10ee8025d88') in 0.005432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1681637 shapeTexture_.asset
+  artifactKey: Guid(80e7e5387790e2e499bd914abb58962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 1681637 shapeTexture_.asset using Guid(80e7e5387790e2e499bd914abb58962d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89c985b0c85c3fd3f87c9e6b5c478f8') in 0.005694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-31434 shapeTexture_.asset
+  artifactKey: Guid(20c6b9d96c849734abe2af46bf86dd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SuperRealisticDiamondShaders/ShapeTextures/_2021-05-07_ 16_ 16-31434 shapeTexture_.asset using Guid(20c6b9d96c849734abe2af46bf86dd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18121ef73d43d8773b58fb69ef5d5f7') in 0.005502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
