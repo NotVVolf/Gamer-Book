@@ -26,6 +26,8 @@ public class SelectionManager : MonoBehaviour
     public GameObject PartyGuests;
 
     public GameObject thingWithButton;
+    public GameObject musicMananger;
+    public GameObject endsong;
 
     private void Awake()
     {
@@ -50,14 +52,14 @@ public class SelectionManager : MonoBehaviour
             selectionRender.enabled = false;
             _selection = null;
         }
-        
-       
+
+
         var ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit))
         {
             var newlySelected = hit.transform;
-            if(newlySelected.CompareTag(selectableTag))
+            if (newlySelected.CompareTag(selectableTag))
             {
                 var selectionRender = newlySelected.GetComponent<Outline>();
                 if (selectionRender != null &&
@@ -82,16 +84,16 @@ public class SelectionManager : MonoBehaviour
                 if (Input.GetMouseButtonDown(0) && _selection != null)
                 {
                     var loadLeveler = _selection.GetComponent<loadlevel>();
-                    if(_selection.name == "BookStandinClosedFront")
+                    if (_selection.name == "BookStandinClosedFront")
                     {
 
                         loadLeveler.Loadbook();
 
                     }
-                    if(_selection.name == "WoodChest")
+                    if (_selection.name == "WoodChest")
                     {
                         chestAnimator = _selection.GetComponent<Animator>();
- 
+
                         loadLeveler.OpenChest();
                     }
                 }
@@ -101,12 +103,12 @@ public class SelectionManager : MonoBehaviour
         }
         else if (thingWithButton != null && _selection == null)
         {
-                var showImage = thingWithButton.GetComponent<Image>();
-                var showButton = thingWithButton.GetComponent<Button>();
-                showImage.enabled = false;
-                showButton.enabled = false;
-                Debug.Log("Turning Off Button");
-                thingWithButton = null;
+            var showImage = thingWithButton.GetComponent<Image>();
+            var showButton = thingWithButton.GetComponent<Button>();
+            showImage.enabled = false;
+            showButton.enabled = false;
+            Debug.Log("Turning Off Button");
+            thingWithButton = null;
         }
 
 
@@ -115,16 +117,20 @@ public class SelectionManager : MonoBehaviour
     public void StartParty()
     {
         Debug.Log("Checking Party?");
-        if(hasPlayedWithCard && hasSeenBook)
+        if (hasPlayedWithCard && hasSeenBook)
         {
             Debug.Log("PartyCanStart");
-            if(partyBegins == false)
+            if (partyBegins == false)
             {
                 Debug.Log("Starting Party!!!");
                 var guests = GameObject.Find("PartyGuests");
                 guests.transform.localScale = new Vector3(1, 1, 1);
+
+                musicMananger.gameObject.SetActive(false);
+                endsong.gameObject.SetActive(true);
+
             }
-            
+
         }
     }
 }

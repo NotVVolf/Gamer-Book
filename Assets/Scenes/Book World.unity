@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44600123, g: 0.49575722, b: 0.57444966, a: 1}
+  m_IndirectSpecularColor: {r: 0.44600153, g: 0.49575752, b: 0.5744499, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3200,8 +3200,8 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f01eba92a6810cc469e790ea17be6797, type: 2}
-  - {fileID: 2100000, guid: d5d0fb9a0502e784ba7c15a755e20018, type: 2}
-  - {fileID: 2100000, guid: 5e639127677dce24ab31617f3f386ed0, type: 2}
+  - {fileID: 2100000, guid: 0d2e6231095513446b91a455fd1a1ca6, type: 2}
+  - {fileID: 2100000, guid: 54053fc25b35aca42bd5371e123475e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10006,10 +10006,10 @@ SkinnedMeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f01eba92a6810cc469e790ea17be6797, type: 2}
-  - {fileID: 2100000, guid: 203443d95a43b144b9ad9bc9eae6079a, type: 2}
-  - {fileID: 2100000, guid: d5d0fb9a0502e784ba7c15a755e20018, type: 2}
-  - {fileID: 2100000, guid: 5e639127677dce24ab31617f3f386ed0, type: 2}
-  - {fileID: 2100000, guid: cd678c2baf31bac4496edecf2be0b628, type: 2}
+  - {fileID: 2100000, guid: 1e2fc1ea5ebdb8a49acea8d893f44e62, type: 2}
+  - {fileID: 2100000, guid: 0d2e6231095513446b91a455fd1a1ca6, type: 2}
+  - {fileID: 2100000, guid: 54053fc25b35aca42bd5371e123475e7, type: 2}
+  - {fileID: 2100000, guid: 1e2fc1ea5ebdb8a49acea8d893f44e62, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10141,134 +10141,6 @@ Transform:
   m_Children:
   - {fileID: 623184587}
   m_Father: {fileID: 129187168}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1575800190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1575800192}
-  - component: {fileID: 1575800191}
-  m_Layer: 0
-  m_Name: music
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!82 &1575800191
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575800190}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 25ac0970967890446969943a16ae4453, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 0.3
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!4 &1575800192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1575800190}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.245838, y: 0.82375, z: 2.108737}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1586782239
 GameObject:
@@ -11952,10 +11824,10 @@ MonoBehaviour:
   - {fileID: 1892120342}
   materials:
   - {fileID: 2100000, guid: f01eba92a6810cc469e790ea17be6797, type: 2}
-  - {fileID: 2100000, guid: 203443d95a43b144b9ad9bc9eae6079a, type: 2}
-  - {fileID: 2100000, guid: cd678c2baf31bac4496edecf2be0b628, type: 2}
-  - {fileID: 2100000, guid: 5e639127677dce24ab31617f3f386ed0, type: 2}
-  - {fileID: 2100000, guid: d5d0fb9a0502e784ba7c15a755e20018, type: 2}
+  - {fileID: 2100000, guid: 1e2fc1ea5ebdb8a49acea8d893f44e62, type: 2}
+  - {fileID: 2100000, guid: 1e2fc1ea5ebdb8a49acea8d893f44e62, type: 2}
+  - {fileID: 2100000, guid: 54053fc25b35aca42bd5371e123475e7, type: 2}
+  - {fileID: 2100000, guid: 0d2e6231095513446b91a455fd1a1ca6, type: 2}
   materialMappings:
   - materialType: 0
     mappings:
@@ -12031,14 +11903,18 @@ MonoBehaviour:
   - materialType: 7
     mappings: []
   pageData:
-  - material: {fileID: 2100000, guid: 5e639127677dce24ab31617f3f386ed0, type: 2}
-  - material: {fileID: 2100000, guid: d5d0fb9a0502e784ba7c15a755e20018, type: 2}
   - material: {fileID: 2100000, guid: 54053fc25b35aca42bd5371e123475e7, type: 2}
-  - material: {fileID: 2100000, guid: c14fce22f43cbeb4da6aa532da15436c, type: 2}
-  - material: {fileID: 2100000, guid: ef6c75096cab31042950729a742dc196, type: 2}
-  - material: {fileID: 2100000, guid: b6c25f54678ba174cbc0246a3a952197, type: 2}
-  - material: {fileID: 2100000, guid: 5e639127677dce24ab31617f3f386ed0, type: 2}
-  - material: {fileID: 2100000, guid: 2fcc8f0b8abe62a43b0ee197e437d842, type: 2}
+  - material: {fileID: 2100000, guid: 0d2e6231095513446b91a455fd1a1ca6, type: 2}
+  - material: {fileID: 2100000, guid: e892076981e7c584fbe701603009b532, type: 2}
+  - material: {fileID: 2100000, guid: ebe25bd61956b4a45a31241b8197e0ab, type: 2}
+  - material: {fileID: 2100000, guid: a8bf76ea52b354a439f89cbc8f7e4a09, type: 2}
+  - material: {fileID: 2100000, guid: 8464dcbf66e04fc44a8902593fa29ff6, type: 2}
+  - material: {fileID: 2100000, guid: 03e9858207f797c4597039b994b8a36e, type: 2}
+  - material: {fileID: 2100000, guid: 6fff773ef8a510a468a365430a8af412, type: 2}
+  - material: {fileID: 2100000, guid: da50a6530b6b44e449ca348ac742fc5a, type: 2}
+  - material: {fileID: 2100000, guid: 57608dec38fcb554f8bc5e80305312ad, type: 2}
+  - material: {fileID: 2100000, guid: e90e7107604722f47bb975e98311d22d, type: 2}
+  - material: {fileID: 2100000, guid: 1077d3b6727fb6148a1de68d47751612, type: 2}
   pages:
   - {fileID: 502405817}
   - {fileID: 967675952}
@@ -12430,7 +12306,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f01eba92a6810cc469e790ea17be6797, type: 2}
-  - {fileID: 2100000, guid: 203443d95a43b144b9ad9bc9eae6079a, type: 2}
+  - {fileID: 2100000, guid: 1e2fc1ea5ebdb8a49acea8d893f44e62, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13769,7 +13645,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: f01eba92a6810cc469e790ea17be6797, type: 2}
-  - {fileID: 2100000, guid: cd678c2baf31bac4496edecf2be0b628, type: 2}
+  - {fileID: 2100000, guid: 1e2fc1ea5ebdb8a49acea8d893f44e62, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14496,5 +14372,4 @@ SceneRoots:
   - {fileID: 1605688819}
   - {fileID: 721488802}
   - {fileID: 960594055}
-  - {fileID: 1575800192}
   - {fileID: 1891257111}
