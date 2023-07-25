@@ -1,8 +1,11 @@
-﻿using System.Collections;
+﻿#if UNITY_EDITOR
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 using echo17.EndlessBook;
+
+
 
 /// <summary>
 /// Handles updating most values of the Book object
@@ -241,3 +244,4 @@ public class BookInspector : Editor
         }
     }
 }
+#endif
