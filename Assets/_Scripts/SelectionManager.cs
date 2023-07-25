@@ -16,12 +16,20 @@ public class SelectionManager : MonoBehaviour
     [SerializeField]
     private Animator chestAnimator;
 
+    public bool hasPlayedWithCard = false;
+
     [SerializeField]
+    public bool hasSeenBook = false;
+
+    public bool partyBegins = false;
+
+    public GameObject PartyGuests;
+
     public GameObject thingWithButton;
 
     private void Awake()
     {
-        if(instance != null)
+        if (instance != null)
         {
             Destroy(gameObject);
         }
@@ -35,7 +43,7 @@ public class SelectionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        StartParty();
         if (_selection != null)
         {
             var selectionRender = _selection.GetComponent<Outline>();
@@ -76,13 +84,14 @@ public class SelectionManager : MonoBehaviour
                     var loadLeveler = _selection.GetComponent<loadlevel>();
                     if(_selection.name == "BookStandinClosedFront")
                     {
+
                         loadLeveler.Loadbook();
 
                     }
                     if(_selection.name == "WoodChest")
                     {
                         chestAnimator = _selection.GetComponent<Animator>();
-                        //loadLeveler.Loadcards();
+ 
                         loadLeveler.OpenChest();
                     }
                 }
@@ -91,15 +100,31 @@ public class SelectionManager : MonoBehaviour
 
         }
         else if (thingWithButton != null && _selection == null)
-            {
+        {
                 var showImage = thingWithButton.GetComponent<Image>();
                 var showButton = thingWithButton.GetComponent<Button>();
                 showImage.enabled = false;
                 showButton.enabled = false;
                 Debug.Log("Turning Off Button");
                 thingWithButton = null;
+        }
+
+
+    }
+
+    public void StartParty()
+    {
+        Debug.Log("Checking Party?");
+        if(hasPlayedWithCard && hasSeenBook)
+        {
+            Debug.Log("PartyCanStart");
+            if(partyBegins == false)
+            {
+                Debug.Log("Starting Party!!!");
+                var guests = GameObject.Find("PartyGuests");
+                guests.transform.localScale = new Vector3(1, 1, 1);
             }
-
-
+            
+        }
     }
 }

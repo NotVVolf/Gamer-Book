@@ -15,6 +15,8 @@ public class loadlevel : MonoBehaviour
 
     [SerializeField]
     GameObject thingWithButton;
+    [SerializeField]
+    GameObject sceneManager;
 
     private void Awake()
     {
@@ -40,6 +42,7 @@ public class loadlevel : MonoBehaviour
                 if (stateInfo.IsName("Animated PBR Chest _Press") && stateInfo.normalizedTime > 1)
                 {
                     Loadcards();
+                    
                 }
                 else
                 {
